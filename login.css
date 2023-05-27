@@ -1,0 +1,78 @@
+body{
+    font-family: Arial;
+    padding:0;
+    margin:0;
+    background-color: rgb(43, 22, 164);
+    overflow: hidden;
+    height:100vh;
+    width:100vw;
+}
+.container{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+}
+h1{
+    text-align: center;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    width:200px;
+    padding:10px;
+    background-color: white;
+    border-radius: 5px;
+}
+#pin{
+    height:40px;
+    border-radius: 5px;
+    border: 0.125rem solid rgb(204, 204, 204);
+    text-align: center;
+    font-weight: bold;;
+}
+.btn{
+    height:40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(7.5px) }
+    50% { transform: translateX(-7.5px) }
+    75% { transform: translateX(7.5px) }
+    100% { transform: translateX(0) }
+}
+
+.shaking{
+    animation: horizontal-shaking 0.25s;
+}
+
+.error{
+    border: 0.125rem solid red !important;
+}
+.error-bar{
+    position: absolute;
+    background-color: red;
+    bottom:0;
+    font-size: xx-large;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+}

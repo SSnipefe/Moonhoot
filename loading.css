@@ -1,0 +1,22 @@
+.progress {
+    width: 100%;
+  }
+
+.countdown {
+    margin-top: 400px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial;
+    background-color: black;
+}
+
+.bar {
+    margin-top: 550px;
+    width: 0%;
+    height: 30px;
+    background-color: #aa04aa;
+    text-align: center;
+    /* line-height: 30px; */
+    color: white;
+    border-radius: 20px;
+}
